@@ -1,0 +1,17 @@
+{
+  "name": "drillable",
+  "description": "Drillable's developer tools — ground your coding agent in real, cited sources instead of guesses.",
+  "owner": { "name": "Drillable", "url": "https://drillable.com" },
+  "plugins": [
+    {
+      "name": "cite",
+      "source": { "source": "github", "repo": "drillablehq/cite" },
+      "description": "Ground your agent's REFERENCE claims — the MCP spec, agent practices, networking, units, and ~100 more domains — in a cited source instead of guessing. (Reach-only; verifying dependencies in CI is the separate Drillable Check.)"
+    },
+    {
+      "name": "context",
+      "source": { "source": "github", "repo": "drillablehq/context" },
+      "description": "Ground your agent in YOUR project's facts — your docs, decisions, conventions — drilling them instead of guessing, and saying \"no record\" instead of bluffing. A local MCP server over a folder of markdown."
+    }
+  ]
+}
