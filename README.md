@@ -5,8 +5,7 @@ grounds a different claim against a different source, instead of letting your ag
 
 ```
 /plugin marketplace add drillablehq/marketplace
-/plugin install cite@drillable       # ground your REFERENCE claims (the 100+ domain corpus)
-/plugin install context@drillable    # ground your PROJECT's facts (a local folder of markdown)
+/plugin install drillable@drillablehq
 ```
 
 A third tool, **[Drillable Check](https://github.com/drillablehq/check)**, grounds your
