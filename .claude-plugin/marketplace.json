@@ -1,12 +1,18 @@
 {
-  "name": "drillable",
-  "description": "Drillable — ground your coding agent: it audits its work against cited sources instead of guessing.",
-  "owner": { "name": "Drillable", "url": "https://drillable.com" },
+  "name": "drillablehq",
+  "description": "Drillable \u2014 ground your coding agent: it audits its work against cited sources instead of guessing.",
+  "owner": {
+    "name": "Drillable",
+    "url": "https://drillable.com"
+  },
   "plugins": [
     {
       "name": "drillable",
-      "source": { "source": "github", "repo": "drillablehq/drillable" },
-      "description": "Install it and your agent grounds its work against the 100+ domain reference corpus — continuously (/with-drillable) or as a post-hoc audit (/audit) — and says \"no record\" instead of bluffing. Optionally point it at your project's docs too. (Dependency gating in CI is the separate Drillable Check.)"
+      "source": {
+        "source": "github",
+        "repo": "drillablehq/drillable"
+      },
+      "description": "Install it and your agent grounds its work against the 100+ domain reference corpus \u2014 continuously (/with-drillable) or as a post-hoc audit (/audit) \u2014 and says \"no record\" instead of bluffing. Optionally point it at your project's docs too. (Dependency gating in CI is the separate Drillable Check.)"
     }
   ]
 }
