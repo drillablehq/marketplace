@@ -5,7 +5,7 @@ grounds a different claim against a different source, instead of letting your ag
 
 ```
 /plugin marketplace add drillablehq/marketplace
-/plugin install drillable@drillablehq
+/plugin install drillable@dev
 ```
 
 A third tool, **[Drillable Check](https://github.com/drillablehq/check)**, grounds your
