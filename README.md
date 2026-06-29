@@ -5,7 +5,7 @@ in cited sources instead of letting it guess.
 
 ```
 /plugin marketplace add drillablehq/marketplace
-/plugin install drillable@dev
+/plugin install drillable@drillable
 ```
 
 The **drillable** plugin grounds your agent's reference claims against the 100+ domain corpus, and
