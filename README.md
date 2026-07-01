@@ -9,13 +9,13 @@ in cited sources instead of letting it guess.
 ```
 
 The **drillable** plugin grounds your agent's reference claims against the 100+ domain corpus, and
-optionally your project's own docs too. A companion tool, **[Drillable Check](https://github.com/drillablehq/check)**,
+optionally your project's own docs — or your own session history — too. A companion tool, **[Drillable Check](https://github.com/drillablehq/check)**,
 grounds your **dependencies** against the live registry + OSV — it's a GitHub Action / CLI, not a
 plugin: `npx drillable-check` or `uses: drillablehq/check@v1`.
 
 | Tool | Grounds your… | Against | Form |
 |---|---|---|---|
-| **drillable** | reference claims (+ optionally your project's docs) | the 100+ domain corpus (and your repo's docs/decisions) | CC plugin (MCP) |
+| **drillable** | reference claims (+ optionally your docs or session history) | the 100+ domain corpus (and your repo's docs, your past sessions) | CC plugin (MCP) |
 | **check** | dependencies | the live package registry + OSV | Action / CLI |
 
 Operated by Drillable LLC.
